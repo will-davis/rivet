@@ -1,0 +1,5 @@
+/target
+/check.json
+/errors.txt
+**/*.rs.bk
+Cargo.lock

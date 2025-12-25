@@ -1,0 +1,22 @@
+[package]
+name = "rivet"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.31.0", features = ["persistence"] }
+egui_extras = { version = "0.31.0" }
+tokio = { version = "1", features = ["full"] }
+tokio-util = "0.7"
+usn-journal-rs = "0.4.0"
+dashmap = "6.1.0"
+fuzzy-matcher = "0.3.7"
+chrono = "0.4.39"
+serde = { version = "1", features = ["derive"] }
+windows = { version = "0.58", features = ["Win32_Storage_FileSystem", "Win32_System_Ioctl", "Win32_Foundation", "Win32_System_IO", "Win32_Security", "Win32_System_Threading", "Win32_UI_Shell"] }
+rfd = "0.15" # File dialogs if needed
+anyhow = "1"
+image = "0.25"
+
+[build-dependencies]
+winres = "0.1"
