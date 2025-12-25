@@ -13,6 +13,10 @@ Rivet is a high-performance, Master File Table (MFT) based file search utility f
 - **Clean UI:** A modern, resizable table interface with column sorting and truncation for long paths.
 - **Stand-alone Executable:** Launches without a console window (in release mode) and includes a custom application icon.
 
+
+https://github.com/user-attachments/assets/c21b092c-5488-4683-9947-05fbdb383098
+
+
 ## Prerequisites
 
 - **Windows 10/11**
